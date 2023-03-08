@@ -12,6 +12,14 @@ export yuedu="udtauth16=abcd; PHPSESSID=abcd"
 每天会验证2次左右，碰到验证文章手动打开看一篇即可
 当前每日30篇*6轮180篇文章约2.2元
 会自动提现
+
+定时每小时1次就行
+
+0 0 */1 * * ?
+    
+const $ = new Env("微信阅读");
+
+
 */
 
 const $ = new Env("微信阅读");
