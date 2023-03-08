@@ -15,7 +15,7 @@ export yuedu="udtauth16=abcd; PHPSESSID=abcd"
 
 定时每小时1次就行
 
-0 0 */1 * * ?
+cron: 0 0 */1 * * ?
     
 const $ = new Env("微信阅读");
 
