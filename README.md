@@ -7,7 +7,7 @@ qinglong面板，微信阅读
 
 微信打开：https://zl0114225029-1314804847.cos.ap-nanjing.myqcloud.com/index.html?upuid=10701353
 
-ios用stream抓包
+ios用stream抓包，安卓用黄鸟抓包
 抓包m.*.shop域名下cookie，
 复制udtauth16=abcd; PHPSESSID=abcd的内容，
 
