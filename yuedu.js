@@ -2,7 +2,12 @@
 微信阅读
 需要青龙环境
 入口，微信打开 -> https://zl0114225029-1314804847.cos.ap-nanjing.myqcloud.com/index.html?upuid=10701353
-抓包m.*.shop域名下cookie,填入环境变量 yuedu，多账户换行隔开
+ios用stream抓包,安卓用黄鸟抓包m.*.shop域名下cookie， 复制udtauth16=abcd; PHPSESSID=abcd的内容，
+
+打开青龙面板的配置文件config.sh,并插入新的参数：
+
+export yuedu="udtauth16=abcd; PHPSESSID=abcd"
+
 
 每天会验证2次左右，碰到验证文章手动打开看一篇即可
 当前每日30篇*6轮180篇文章约2.2元
