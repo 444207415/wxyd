@@ -14,9 +14,7 @@ export yuedu="udtauth16=abcd; PHPSESSID=abcd"
 会自动提现
 
 定时每小时1次就行
-
-cron: 0 0 */1 * * ?
-    
+   
 const $ = new Env("微信阅读");
 
 
